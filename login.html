@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Log in</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse"
+      data-bs-target="#main"
+      aria-controls="main"
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link p-lg-3 active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3 " href="#contact">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle p-lg-3" href="#" data-bs-toggle="dropdown">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#project">Create Your Project</a></li>
+              <li><a class="dropdown-item" href="#dropdown">Our Blog</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#dropdown">Something else here></a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="border-start border-white search ps-3 pe-3 d-none d-lg-block">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <a class="btn rounded-pill main-btn px-4 py-2 " href="login.html">Login</a>
+      </div>
+    </div>
+  </nav>
+  <!-- End Nav -->
+  <div class="box">
+  <div class="contaier">
+    <form action="">
+      <h1>Log In</h1>
+      <div class="input">
+        <input class="bg-transparent text-white" type="text" placeholder="Username" >
+        <i class="fa-solid fa-user"></i>
+      </div>
+      <div class="input ">
+        <input class="bg-transparent text-white" type="password" placeholder="password" >
+        <i class="fa-solid fa-lock"></i>
+      </div>
+      <div class="remember">
+        
+        <label>
+          <input type="checkbox">
+          Remember me?
+        </label>
+        <a href="#">Forget Password?</a>
+      </div>
+      <a class="login btn rounded-pill main-btn px-4 py-2 " href="login.html">Log in</a>
+      <div class="register">
+        <p>You Don`t have an account?
+        <a href="#">Regestir</a>
+        </p>
+      </div>
+    </form>
+  </div>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+</body>
+</html>
+
+
