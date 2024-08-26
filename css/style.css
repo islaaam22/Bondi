@@ -71,47 +71,18 @@ body::before {
   border-color: var(--green-color);
 }
 .box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: absolute;
   top: 25%;
   right: 50%;
   transform: translate(50%);
 }
 .contaier {
-  background-color: transparent;
   width: 450px;
-  padding: 10px;
-  border: 2px solid rgba(255, 255, 255, .5);
-  color: white;
   backdrop-filter: blur(20px);
   box-shadow: 0 0 10px rgba(0,0,0,.3);
-  border-radius: 30px;
 }
 h1 {
-  text-align: center;
   font-size: 40px;
-  font-weight: 800;
-  padding: 20px;
-  color: var(--yellow);
-}
-.contaier .input  {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin: 20px auto;
-  position: relative;
-  height: 50px;
-}
-.input  input {
-  height: 100%;
-  width: 100%;
-  border: none;
-  padding: 10px;
-  border: 2px solid rgba(255, 255, 255, .5);
-  border-radius: 40px;
-  padding: 20px;
 }
 input[type="text"]:focus {
   outline: none;
@@ -123,46 +94,29 @@ input::placeholder {
   color: rgba(255, 255, 255, 0.549);
 }
 .contaier .input  svg {
-  position: absolute;
   top: 33%;
   right: 10%;
   transform: translate(-50%);
-  font-size: 20px;
 }
-.remember {
-  display: flex;
-  justify-content: space-between;
+.form-check {
   font-size: 18px;
 }
-.remember a {
+.form-check a {
   text-decoration: none;
-  color: white;
 }
-.remember a:hover {
+.form-check a:hover {
   color: #ffc400;
   text-decoration: underline;
-}
-.login {
-  width: 100%;
-  font-size: 22px;
-  background-color: var(--red);
-  color: var(--yellow);
-  margin: 20px auto;
 }
 .login:hover {
   color: #00ff58;
   background-color: var(--red);
 }
 .register {
-  text-align: center;
-  font-size: 18px;
-  color: #13ca9f;
   letter-spacing: 1px;
 }
 .register a {
   text-decoration: none;
-  color: white;
-  font-weight: 800;
 }
 .register a:hover {
   color: #ffc400;
